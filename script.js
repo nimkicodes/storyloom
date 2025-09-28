@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let audioChunks = [];
 
     recordButton.addEventListener("click", () => {
+        console.log("Record button clicked!");
         if (!isRecording) {
             startRecording();
         } else {
