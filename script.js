@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const recordButton = document.getElementById("record-button");
+    console.log("Record button element:", recordButton);
     const statusMessage = document.getElementById("status-message");
     let isRecording = false;
     let mediaRecorder;
